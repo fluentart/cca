@@ -1,14 +1,22 @@
+/*
+background rgb(34,36,25);
+
+spot rgb(50,107,74);
+
+*/
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     outline-style: none;
-    font-weight: 700;
+    font-weight: 600;
+
 }
 
 a {
 	text-decoration: none;  
-	color: rgb(165,13,19); 
+	color: rgb(50,107,74); 
 }
 
 h5 {
@@ -34,28 +42,28 @@ a:hover {
 input {
   padding: 0.5em;
   margin: 0.5em 0 0.5em 0;
-  background: rgb(29,25,16);
+  background: rgb(34,36,25);
   color: rgb(255,255,255);
-  border: 2px solid rgb(29,25,16);
+  border: 2px solid rgb(34,36,25);
   width: 100%;
 }
 
 input:focus {
-  border: 2px solid rgb(165,13,19);
+  border: 2px solid rgb(50,107,74);
 }
 
 
 textarea {
   padding: 0.5em;
   width: 100%;
-  background: rgb(29,25,16);
+  background: rgb(34,36,25);
   color: rgb(255,255,255);
-  border: 2px solid rgb(29,25,16);
+  border: 2px solid rgb(34,36,25);
   min-height: 6em;
 }
 
 textarea:focus {
-  border: 2px solid rgb(165,13,19); 
+  border: 2px solid rgb(50,107,74); 
 }
 
 .banner h1 { text-align: center; padding: 0.2em 1em 0.2em 1em; font-size: 2.5em; line-height: 1.25em;}
@@ -63,7 +71,7 @@ textarea:focus {
 .article h2 { font-size: 1.25em;}
 .bannertitle { text-align: center; padding-top: 3em;}
 .blockbutton { width: 100%; 
- background: rgb(165,13,19);
+ background: rgb(50,107,74);
  height: 46px;
  color: rgb(255,255,255);
  text-align: center;
@@ -74,14 +82,14 @@ textarea:focus {
 
 .blockbutton:hover {
   background: rgb(255,255,255);
-  color: rgb(165,13,19);
+  color: rgb(50,107,74);
  height: 46px;  
 }
 
-.selected { color: rgb(255,255,255);}
+.selected { color: rgb(162,32,34);}
 
 .spot {
-  color: rgb(165,13,19);
+  color: rgb(50,107,74);
 }
 
 .bold {
@@ -89,7 +97,7 @@ textarea:focus {
 }
 
 .bggray {
-  background: rgb(21,19,12);
+  background: rgb(19,19,12);
 }
 
 .bgdark {
@@ -160,8 +168,8 @@ textarea:focus {
 .padtop { margin-top: 30px;}
 
 body {
-  background: rgb(29,25,16);
-  color: rgb(133,133,133);
+  background: rgb(34,36,25);
+  color: rgb(200,200,200);
 }
 
 h1 {
@@ -192,7 +200,7 @@ p {
   line-height: 1.35em;
   letter-spacing: 0.075em; 
   font-size: 11pt;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {
@@ -231,7 +239,7 @@ p {
 
 
 .socialmediaicons { float: right; font-size: 30px; margin-top: 5px; }
-.socialmediaicons a { color: rgb(165,13,19); }
+.socialmediaicons a { color: rgb(50,107,74); }
 .socialmediaicons a:hover { color: rgb(255,255,255); }
 
 /* ^^^^^^^^^^^^^^^^^^^  TOPNAV ^^^^^^^^^^^^^^^^^^^ */
@@ -249,7 +257,7 @@ p {
 
 /* vvvvvvvvvvvvvvvvvvv  FOOTER vvvvvvvvvvvvvvvvvvv */
 
-.footlinks a { color: rgb(133,133,133);}
+.footlinks a { color: rgb(200,200,200);}
 .footlinks a:hover { color: rgb(255,255,255);}
 
 
